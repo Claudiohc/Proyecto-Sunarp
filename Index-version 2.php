@@ -69,7 +69,7 @@ if (document.goo.field8.value == '') { Check = 1; }
     //-->
     </script>
   <SCRIPT language=Javascript>
-      <!--
+      <!--------
       function dont(evt)
       {
          var charCode = (evt.which) ? evt.which : event.keyCode

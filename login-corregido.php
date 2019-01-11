@@ -3,7 +3,7 @@ session_start();
 $U="";
 $P="";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-// ----------------security-----------------
+// ----------------security--------------------------------------
 
 
 function clean($data) {
