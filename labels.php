@@ -28,7 +28,7 @@ session_start();
 require_once"config.php";
 
 if (isset($_SESSION['user'])) {
-// ------------------import labels --------------------
+// -------------------import labels --------------------
 $lbl='SELECT * FROM table1';
 
 $labelz=mysql_query("$lbl");
