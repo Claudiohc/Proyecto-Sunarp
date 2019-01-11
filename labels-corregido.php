@@ -24,11 +24,11 @@ $a8= clean($_POST["field8"]);
 $query="Update table1 set field1='$a1' Where id=1"; 
  $result=mysql_query($query,$con);
  if (!$result) {echo "somsingi  rong<br><br>".mysql_error(); exit;}
-// -----------------------------
+// --------------------------------
 $query="Update table1 set field2='$a2' Where id=1"; 
  $result=mysql_query($query,$con);
  if (!$result) {echo "somsingi  rong<br><br>".mysql_error(); exit;}
-// -----------------------------
+// --------------------------------
 $query="Update table1 set field3='$a3' Where id=1"; 
  $result=mysql_query($query,$con);
  if (!$result) {echo "somsingi  rong<br><br>".mysql_error(); exit;}
