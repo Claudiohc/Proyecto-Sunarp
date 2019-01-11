@@ -12,6 +12,6 @@ $table='table2';
 //-----------------user level in members table not in use this is why I set admin here--
 $admin="admin";
 //-------------------------------------------------
-$title="sistema de tramite documentario tusolutionweb";
+$title="sistema de tramite documentario SUNARP";
 
 ?>
