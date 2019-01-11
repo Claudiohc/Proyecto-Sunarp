@@ -88,7 +88,7 @@ echo "<h1>$title</h1>";
 
 
 if (isset($_SESSION['user'])) {
-// ------------------import labels --------------------
+// -------------------import labels --------------------
 $lbl='SELECT * FROM table1';
 
 $labelz=mysql_query("$lbl");
