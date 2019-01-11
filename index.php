@@ -59,6 +59,7 @@ if (document.goo.field8.value == '') { Check = 1; }
 
 
         if (Check == 1) {
+
             alert(" All fields are required ");
             return false;
         } else {
