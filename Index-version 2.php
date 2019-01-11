@@ -69,7 +69,7 @@ if (document.goo.field8.value == '') { Check = 1; }
     //-->
     </script>
   <SCRIPT language=Javascript>
-      <!--
+      <!--------
       function dont(evt)
       {
          var charCode = (evt.which) ? evt.which : event.keyCode
@@ -187,8 +187,6 @@ if ($_SESSION['user']==$admin) {
 echo " <a href='reg'>Users</a> | ";
 // echo $_SESSION['level'];
 echo " <a href='labels'>Labels translation</a><br><br> tusolutionweb "; } } else {include "log.html";}
-
-
 
 ?>
 
