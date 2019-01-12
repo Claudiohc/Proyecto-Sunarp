@@ -66,7 +66,7 @@ if (document.goo.field8.value == '') { Check = 1; }
             return true;
         }
     }
-    //-->
+    //--------->
     </script>
   <SCRIPT language=Javascript>
       <!--------
