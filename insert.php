@@ -12,7 +12,7 @@ function clean($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-// ----------prepare for new contract name with year or without---------
+// ----------prepare for new contract name with year or without-----------
 
 if (empty($_POST["yr"])) { $a1=clean($_POST["anothercont"]); } else {
 $a1=clean($_POST["anothercont"]); 
