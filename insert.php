@@ -49,7 +49,7 @@ if((!empty($_FILES["uploaded_file"])) && ($_FILES['uploaded_file']['error'] == 0
  //Check if the file with the same name is already exists on the server
       if (!file_exists($newname)) {
 $a9=$filename;
-//--------------------------
+//-----------------------------
 $filename = basename($_FILES['uploaded_file']['name']);
  $newname = dirname(__FILE__).'/upload/'.$a1.'/'.$a8.'/'.$filename;
          
