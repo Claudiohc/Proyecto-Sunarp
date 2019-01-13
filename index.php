@@ -59,6 +59,7 @@ if (document.goo.field8.value == '') { Check = 1; }
 
 
         if (Check == 1) {
+
             alert(" All fields are required ");
             return false;
         } else {
@@ -187,6 +188,8 @@ if ($_SESSION['user']==$admin) {
 echo " <a href='reg'>Users</a> | ";
 // echo $_SESSION['level'];
 echo " <a href='labels'>Labels translation</a><br><br> tusolutionweb "; } } else {include "log.html";}
+
+
 
 ?>
 

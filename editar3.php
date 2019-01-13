@@ -1,6 +1,6 @@
 ﻿<?php
 
-if ($_SERVER["REQUEST_METHOD"] ======= "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 function clean($data) {
   $data = trim($data);
   $data = stripslashes($data);

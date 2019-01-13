@@ -34,7 +34,7 @@ if (document.gooreg.password2.value == '') { Check = 1; }
             return true;
         }
     }
-    //---------------->
+    //-->
     </script>
 
 

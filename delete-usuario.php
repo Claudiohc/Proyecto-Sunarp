@@ -28,7 +28,6 @@ echo "<script language='javascript'>
 }
 
 ?> 
-
 </body> 
 </html> 
 

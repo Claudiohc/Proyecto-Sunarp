@@ -66,10 +66,10 @@ if (document.goo.field8.value == '') { Check = 1; }
             return true;
         }
     }
-    //--------->
+    //------------------------------------------------>
     </script>
   <SCRIPT language=Javascript>
-      <!--------
+      <!--
       function dont(evt)
       {
          var charCode = (evt.which) ? evt.which : event.keyCode
@@ -78,7 +78,7 @@ if (document.goo.field8.value == '') { Check = 1; }
 
          return true;
       }
-      //-->
+      //-------------------------------------------------->
    </SCRIPT>
 <body bgcolor=teal><b>
 <center>
